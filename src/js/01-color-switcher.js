@@ -1,6 +1,7 @@
 
 const btnStart = document.querySelector('[data-start]');
 const btnStop = document.querySelector('[data-stop]');
+let intervalId = null;
 
 btnStart.addEventListener('click', changeBackgroundColor);
 btnStop.addEventListener('click', stopChangingColor);
